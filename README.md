@@ -89,7 +89,7 @@ This covers the choice of stocks only. The rules themselves were developed on th
 - **Backtest, not a track record.** No real money was traded on these rules over this period.
 - **Developed on the same period.** The rules were built using these ten years of data, so there is no separate period that the rules had never seen. Real results are usually lower than backtests of this kind.
 - **Approximate history of the stock list.** Index membership and market caps at past dates were reconstructed and are not exact.
-- **The rebound rule rests on few episodes.** It acted in only 8 market periods in ten years, and two of them (March 2020 and February 2022) produced about 80% of its profit.
+- **The rebound rule rests on few episodes.** It acted in only 8 market periods in ten years, and two of them (March 2020 and February 2022) produced essentially all of its profit; the other six together made about zero.
 - **Small differences are noise.** Changing the position size or the order in which simultaneous signals are bought moves the result by a point or two a year.
 - **Not included:** taxes, slippage beyond the 0.1% cost, and dividends on the benchmarks.
 
