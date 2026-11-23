@@ -73,6 +73,17 @@ The strategy lagged QQQ in strong years (2019, 2020, 2021, 2023) and lost far le
 
 With index members only (no extra 50-billion companies) the results are 21.0% / 24.9% / 27.3% a year for versions A / B / C, with drawdowns of 15.5% / 15.5% / 14.8%.
 
+## Could these trades have been made at the time?
+
+As far as the choice of stocks goes, yes. The backtest does not start from a list of stocks that are known today to have become big winners.
+
+- **The stock list is rebuilt for every date.** On each day the strategy may only buy stocks that were members of the S&P 500 or the Nasdaq-100 on that day. 754 companies were members at some point in the ten years. 175 of them were later removed, acquired or delisted; they are in the test for the time they were members, losses included.
+- **A later winner is not available early.** A stock that joined an index in 2025 cannot be bought in the test before the day it joined, however much it rose before that.
+- **Signals use past prices only.** Every buy and sell is decided on completed bars and filled at the open of the next bar.
+- **One exception, shown separately.** The extra companies above 50 billion USD were taken from companies that are above 50 billion today, each counted from the date its market cap first passed 50 billion. A company that was above 50 billion in the past and has since fallen below is missing, so this part contains some hindsight. It accounts for 34 of the 591 trades in version C and about 3% of its profit. The results with index members only do not have this issue; they are given above and are slightly higher.
+
+This covers the choice of stocks only. The rules themselves were developed on the same ten years, as described below.
+
 ## Limits of these results
 
 - **Backtest, not a track record.** No real money was traded on these rules over this period.
