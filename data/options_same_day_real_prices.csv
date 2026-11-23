@@ -1,0 +1,8 @@
+trade,trades,winners_pct,avg_per_trade_pct,total_usd,total_without_5_best_usd,worst_drop_usd,usd_2024,usd_2025,usd_2026
+"QQQ puts, signal P",57,36.8,14.4,3368,-979,-1432,1057,299,2013
+"SPY calls, signal C",346,47.4,1.8,2200,-916,-1344,572,1098,530
+"SPY puts, opposite side of signal C",341,39.6,2.9,3035,-736,-2964,1517,1589,-71
+"QQQ calls, opposite side of signal P",20,40.0,-11.2,-565,-1757,-1180,-1059,234,260
+"QQQ puts + SPY calls",403,45.9,3.6,5569,832,-1239,1629,1396,2543
+"QQQ puts + SPY calls + SPY puts",744,43.0,3.3,8604,3218,-2783,3146,2985,2473
+"All four",764,42.9,2.9,8039,2653,-2580,2088,3220,2732

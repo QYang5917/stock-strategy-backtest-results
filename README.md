@@ -87,3 +87,7 @@ With index members only (no extra 50-billion companies) the results are 21.0% / 
 - [`data/yearly_returns_percent.csv`](data/yearly_returns_percent.csv) — the table above.
 - [`data/account_curve_version_A.csv`](data/account_curve_version_A.csv), [`B`](data/account_curve_version_B.csv), [`C`](data/account_curve_version_C.csv) — daily account value as a multiple of the starting account.
 - The same three curves for index members only: `data/account_curve_version_*_index_members_only.csv`.
+
+## Option tests
+
+Results of option tests on real option prices are on a separate page: [OPTIONS.md](OPTIONS.md). Rules are not shown there either.
